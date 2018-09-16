@@ -23,7 +23,7 @@
                 class="result" 
                 v-show="checked == true"
             >
-                {{ `${result} / ${this.questions.length}` }}
+                {{ `Результат: ${result} / ${this.questions.length}` }}
             </div>
         </div>
     </div>
